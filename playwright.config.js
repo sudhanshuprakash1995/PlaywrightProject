@@ -37,7 +37,7 @@ export default defineConfig({
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
     browserName: 'chromium',
-    headless: false,
+    headless: true,
   },
 
   /* Configure projects for major browsers */
