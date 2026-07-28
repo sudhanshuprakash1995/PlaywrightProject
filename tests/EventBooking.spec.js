@@ -3,7 +3,7 @@
 
 // event-booking.spec.js
 // @ts-check
-const { test, expect } = require('@playwright/test');
+import { test, expect } from '@playwright/test'
  
 
 const BASE_URL = 'https://eventhub.rahulshettyacademy.com';
@@ -165,7 +165,7 @@ test('Create event, book it, and verify seat count reduces by 1', async ({ page 
 });
 
 
-// const { test, expect } = require('@playwright/test');
+// const { test, expect } from '@playwright/test');
 // /**
 //  * @typedef {Object} EventDetails
 //  * @property {string} title

@@ -1,0 +1,6 @@
+Tour popup detected → Closing it...
+Tour popup closed successfully.
+Analysis Results: 38%
+Previous Count: 50%
+Current Count: 38%
+Values: 50, 38 12

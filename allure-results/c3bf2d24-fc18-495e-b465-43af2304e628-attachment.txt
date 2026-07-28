@@ -1,0 +1,13 @@
+Selected model: claude-sonnet-4.6
+Upload completed for 3 file(s)
+Removing 3 files...
+Selected model: claude-opus-4.6
+Upload completed for 3 file(s)
+Removing 3 files...
+Selected model: GPT-5.1
+Upload completed for 3 file(s)
+Removing 3 files...
+Selected model: gpt-4o-mini
+Upload completed for 2 file(s)
+Removing 3 files...
+Final files count: 0

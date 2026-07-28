@@ -1,0 +1,8 @@
+Test data is:  {
+  username: 'anshika@gmail.com',
+  password: 'Iamking@000',
+  productName: 'ADIDAS ORIGINAL'
+}
+[ 'ADIDAS ORIGINAL' ]
+6a5b23a085b8849b49f45b1d
+Order found

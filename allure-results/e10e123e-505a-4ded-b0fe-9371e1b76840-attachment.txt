@@ -1,0 +1,3 @@
+Tour popup detected → Closing it...
+Tour popup closed successfully.
+Analysis Results: 42%

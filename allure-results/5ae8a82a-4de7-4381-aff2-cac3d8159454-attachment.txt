@@ -1,0 +1,6 @@
+Tour popup detected → Closing it...
+No tour popup shown, continuing...
+Analysis Results: 70%
+Previous Count: 48%
+Current Count: 70%
+Values do not match

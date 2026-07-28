@@ -1,5 +1,5 @@
-const {test, expect} = require('@playwright/test');
-const { TIMEOUT } = require('node:dns');
+import {test, expect} from '@playwright/test'
+import { TIMEOUT } from 'node:dns'
 
 test('Calander Operation', async ({browser})=>{
     const calander = "svg.react-date-picker__calendar-button__icon"

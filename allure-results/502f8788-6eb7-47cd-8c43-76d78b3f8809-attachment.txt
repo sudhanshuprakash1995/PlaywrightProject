@@ -1,0 +1,58 @@
+Tour popup detected → Closing it...
+No tour popup shown, continuing... locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('button[aria-label="Close Tour"]') to be visible
+
+    at KaiChatBot.closeTour (D:\PlaywrightProject\pageObjects\KaiChatBot.js:52:43)
+    at D:\PlaywrightProject\tests\ExploratoryKAIResumeAnalysis.spec.js:27:3 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    location: {
+      file: 'D:\\PlaywrightProject\\pageObjects\\KaiChatBot.js',
+      line: 52,
+      column: 43,
+      function: 'KaiChatBot.closeTour'
+    },
+    category: 'pw:api',
+    title: `Wait for selector locator('button[aria-label="Close Tour"]')`,
+    apiName: 'locator.waitFor',
+    params: {
+      selector: 'button[aria-label="Close Tour"]',
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 5000
+    },
+    group: undefined,
+    stepId: 'pw:api@30',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@30',
+      _title: `Wait for selector locator('button[aria-label="Close Tour"]')`,
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1785224681310,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('button[aria-label="Close Tour"]') to be visible\x1B[22m\n`,
+      stack: 'TimeoutError: locator.waitFor: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('button[aria-label="Close Tour"]') to be visible\x1B[22m\n` +
+        '\n' +
+        '    at KaiChatBot.closeTour (D:\\PlaywrightProject\\pageObjects\\KaiChatBot.js:52:43)\n' +
+        '    at D:\\PlaywrightProject\\tests\\ExploratoryKAIResumeAnalysis.spec.js:27:3',
+      cause: undefined
+    }
+  }
+}
+Analysis Results: 0%
+Previous Count: 0%
+Current Count: 0%
+Values: 0, 0 0

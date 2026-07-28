@@ -1,0 +1,4 @@
+Selected model: claude-sonnet-4.6
+Upload completed for 3 file(s)
+Removing 3 files...
+Selected model: claude-opus-4.6

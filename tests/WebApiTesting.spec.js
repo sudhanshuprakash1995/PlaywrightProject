@@ -1,39 +1,45 @@
-const {test, expect, request} = require('@playwright/test')
-const dataPayload = {
-    userEmail: "sp333@gmail.com",
-    userPassword: "Sp@123456"
-}
-const orderPayload = {
-    "orders": [
-        {
-            "country": "India",
-            "productOrderedId": "6960ea76c941646b7a8b3dd5"
-        }
-    ]
-}
+import {test, expect, request} from '@playwright/test'
+import ApiUtils from '../utils/APiUtils.js'
+
+    const dataPayload = {
+        userEmail: "sp333@gmail.com",
+        userPassword: "Sp@123456"
+    }
+    const orderPayload = {
+        "orders": [
+            {
+                "country": "India",
+                "productOrderedId": "6960ea76c941646b7a8b3dd5"
+            }
+        ]
+    }
+
 let orderId
 let token
 
 test.beforeAll( async () => {
     const apiContext = await request.newContext();
-    const response = await apiContext.post('https://rahulshettyacademy.com/api/ecom/auth/login', { data: dataPayload });
-    const responseBody = await response.json()
-    // console.log('Json response: ', responseBody);
-    await expect(response.ok()).toBeTruthy();
-     token = responseBody.token;
+    const apiUtil = new ApiUtils(apiContext, dataPayload)
+    token = await apiUtil.getToken()
+    orderId = await apiUtil.createOrder(orderPayload)
+    // const response = await apiContext.post('https://rahulshettyacademy.com/api/ecom/auth/login', { data: dataPayload });
+    // const responseBody = await response.json()
+    // // console.log('Json response: ', responseBody);
+    // await expect(response.ok()).toBeTruthy();
+    //  token = responseBody.token;
 
-     const orderResponse = await apiContext.post('https://rahulshettyacademy.com/api/ecom/order/create-order',{
-        data: orderPayload,
-        headers:{
-            'Authorization':token,
-            'Content-Type':'application/json'
-        }
-     })
-        const orderResponseBody = await orderResponse.json()
-        console.log('Order response: ', orderResponseBody);
-        orderId = orderResponseBody['orders'][0];
-        console.log('Order ID: ', orderId);
-    await apiContext.dispose();
+    //  const orderResponse = await apiContext.post('https://rahulshettyacademy.com/api/ecom/order/create-order',{
+    //     data: orderPayload,
+    //     headers:{
+    //         'Authorization':token,
+    //         'Content-Type':'application/json'
+    //     }
+    //  })
+    //     const orderResponseBody = await orderResponse.json()
+    //     console.log('Order response: ', orderResponseBody);
+    //     orderId = orderResponseBody['orders'][0];
+    //     console.log('Order ID: ', orderId);
+    // await apiContext.dispose();
 })
 
 test('Bypassing Login', async ({page}) => {

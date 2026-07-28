@@ -1,0 +1,22 @@
+Tour popup detected → Closing it...
+No tour popup shown, continuing...
+Selected model: claude-sonnet-4.6
+Bot reply: Hello! 👋 Welcome to K-AI, your Kumaran Systems AI assistant.
+How can I help you today? Whether it's:
+
+💻 Code assistance – writing, debugging, or reviewing code
+📧 Professional communication – drafting emails or documents
+📊 Information & summaries – research or knowledge questions
+🛠️ General support – anything else you need
+
+I'm here to help!
+Is there a specific task or project you're working on that I can assist you with?
+Selected model: claude-opus-4.6
+###Bot first reply: The capital of Nepal is Kathmandu.
+Kathmandu is the largest city in Nepal and serves as the country's political, cultural, and economic hub. It is situated in the Kathmandu Valley and is known for its rich history, ancient temples, and vibrant culture.
+Would you like to know more about Nepal or any other country?
+###Bot second reply: The current year is 2026.
+Would you like to know today's full date or any other time-related information?
+###Bot third reply: It looks like your message might have been a typo or accidental input. I wasn't able to understand a specific question or request from it.
+Could you please rephrase or clarify what you'd like help with? I'm here to assist with coding, information lookup, document drafting, and more! 😊
+Is there something specific I can help you with today?

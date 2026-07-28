@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test');
+import { test, expect } from '@playwright/test'
  
 // constants value for the tests
 const BASE_URL = 'https://eventhub.rahulshettyacademy.com';

@@ -1,0 +1,17 @@
+Tour popup detected → Closing it...
+No tour popup shown, continuing...
+Selected model: claude-sonnet-4.6
+Bot reply: Hello! 👋 Welcome to K-AI, your Kumaran Systems AI assistant.
+How can I help you today? Whether it's:
+
+💻 Code assistance – writing, debugging, or reviewing
+📧 Professional communication – emails, documents
+📊 Information & summaries
+❓ General knowledge questions
+
+Just let me know what you need!
+Is there a specific task or project you're working on that I can assist you with?
+Selected model: claude-opus-4.6
+###Bot first reply: The capital of Nepal is Kathmandu.
+Kathmandu is the largest city in Nepal and serves as the country's political, cultural, and economic center. It is located in the Kathmandu Valley and is known for its rich history, ancient temples, and vibrant culture.
+Would you like to know more about Nepal or any other country?
